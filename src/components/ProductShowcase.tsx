@@ -10,7 +10,7 @@ const ProductCard = ({
   name: string;
 }) => {
   return (
-    <div className="product-card">
+    <div className="product-card group">
       <div className="aspect-[4/3] mb-4 overflow-hidden">
         <img 
           src={image} 

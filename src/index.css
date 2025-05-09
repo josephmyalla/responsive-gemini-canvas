@@ -65,7 +65,7 @@
   }
 
   .product-card {
-    @apply relative overflow-hidden group;
+    @apply relative overflow-hidden;
   }
   
   .product-card img {
