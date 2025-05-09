@@ -9,17 +9,17 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12">
           {/* Left Column - Text */}
           <div className="lg:col-span-4">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium mb-6">Furnlure</h1>
-            <h2 className="text-xl font-playfair mb-4">Verigote noneepplue</h2>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium mb-6">Furniture</h1>
+            <h2 className="text-xl font-playfair mb-4">Modern Living Solutions</h2>
             
             <p className="text-sm text-muted-foreground mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fermentum efficitur risus. Nec euismod tein ferintma elementum faucibus. Nunc consequisbat lut aeud lacus elementdiam basd la diznmte cagy attelmatrv digy sifmgmor.
+              Discover our collection of handcrafted, sustainable furniture designed for modern living spaces. Each piece is carefully crafted with attention to detail, ensuring both aesthetic appeal and functional durability for your home.
             </p>
             
-            <button className="btn-primary">Cea eu fmatboe</button>
+            <button className="btn-primary">Explore Collection</button>
             
             <div className="mt-16">
-              <h3 className="mb-4 text-sm uppercase tracking-wider">Moam r Aetelm plamt</h3>
+              <h3 className="mb-4 text-sm uppercase tracking-wider">Available Finishes</h3>
               
               <div className="flex items-center space-x-4">
                 <button className="w-7 h-7 rounded-full border border-muted/50 flex items-center justify-center">
@@ -34,22 +34,22 @@ const HeroSection = () => {
                   <span className="sr-only">Select wood</span>
                   <div className="w-3 h-3 rounded-full bg-primary"></div>
                 </button>
-                <span className="text-xs border border-muted/50 px-2 py-1">•80</span>
+                <span className="text-xs border border-muted/50 px-2 py-1">$80</span>
               </div>
             </div>
           </div>
           
           {/* Middle Column - Text */}
           <div className="lg:col-span-3">
-            <h2 className="text-3xl md:text-4xl font-medium mb-6">Henltre</h2>
-            <h3 className="text-xl font-playfair mb-4">Bronn Frotur</h3>
+            <h2 className="text-3xl md:text-4xl font-medium mb-6">Heritage</h2>
+            <h3 className="text-xl font-playfair mb-4">Crafted Quality</h3>
             
             <p className="text-sm text-muted-foreground mb-6">
-              Lorem ipsum est tar vca orbia eaiting olumna ig em ens buoeeaavumring.
+              We combine traditional craftsmanship with modern design principles to create timeless pieces.
             </p>
             
             <p className="text-sm text-muted-foreground mb-6">
-              Ureat evarstusis ditimta tuv fav gisd esnare klaen, eniz cosovamia nei ost ldarnoe puria linv ez otmistna.
+              Each item is made from sustainably sourced materials, ensuring both environmental responsibility and lasting quality for generations to come.
             </p>
             
             <div className="flex items-center gap-2">

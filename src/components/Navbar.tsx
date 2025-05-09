@@ -24,20 +24,20 @@ const Navbar = () => {
             </div>
           </div>
           <div className="hidden md:flex items-center">
-            <span className="text-xs tracking-wider text-muted-foreground">Casto Ora</span>
+            <span className="text-xs tracking-wider text-muted-foreground">Est. 2020</span>
             <ChevronRight className="h-3 w-3 text-muted-foreground ml-2" />
           </div>
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
-          <a href="#home" className="nav-link">Miomie</a>
-          <a href="#products" className="nav-link">Aagru nouses</a>
-          <a href="#about" className="nav-link">Abou uit</a>
-          <a href="#features" className="nav-link">Maurts</a>
-          <a href="#testimonials" className="nav-link">Abouuis</a>
-          <a href="#contact" className="nav-link">Cntuis</a>
-          <a href="#blog" className="nav-link">Sigietus</a>
+          <a href="#home" className="nav-link">Home</a>
+          <a href="#products" className="nav-link">Products</a>
+          <a href="#about" className="nav-link">About</a>
+          <a href="#features" className="nav-link">Features</a>
+          <a href="#testimonials" className="nav-link">Testimonials</a>
+          <a href="#contact" className="nav-link">Contact</a>
+          <a href="#blog" className="nav-link">Blog</a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -52,13 +52,13 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden absolute top-20 right-0 left-0 bg-background border-b border-muted z-50 animate-fade-in py-4">
             <div className="container-custom flex flex-col space-y-4">
-              <a href="#home" className="nav-link" onClick={() => setIsOpen(false)}>Miomie</a>
-              <a href="#products" className="nav-link" onClick={() => setIsOpen(false)}>Aagru nouses</a>
-              <a href="#about" className="nav-link" onClick={() => setIsOpen(false)}>Abou uit</a>
-              <a href="#features" className="nav-link" onClick={() => setIsOpen(false)}>Maurts</a>
-              <a href="#testimonials" className="nav-link" onClick={() => setIsOpen(false)}>Abouuis</a>
-              <a href="#contact" className="nav-link" onClick={() => setIsOpen(false)}>Cntuis</a>
-              <a href="#blog" className="nav-link" onClick={() => setIsOpen(false)}>Sigietus</a>
+              <a href="#home" className="nav-link" onClick={() => setIsOpen(false)}>Home</a>
+              <a href="#products" className="nav-link" onClick={() => setIsOpen(false)}>Products</a>
+              <a href="#about" className="nav-link" onClick={() => setIsOpen(false)}>About</a>
+              <a href="#features" className="nav-link" onClick={() => setIsOpen(false)}>Features</a>
+              <a href="#testimonials" className="nav-link" onClick={() => setIsOpen(false)}>Testimonials</a>
+              <a href="#contact" className="nav-link" onClick={() => setIsOpen(false)}>Contact</a>
+              <a href="#blog" className="nav-link" onClick={() => setIsOpen(false)}>Blog</a>
             </div>
           </div>
         )}

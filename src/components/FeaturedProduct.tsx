@@ -36,32 +36,26 @@ const FeaturedProduct = () => {
           
           {/* Featured Product Text */}
           <div className="lg:col-span-5 flex flex-col justify-center">
-            <h2 className="text-3xl md:text-4xl font-medium mb-6">Bourping</h2>
-            <h3 className="text-xl font-playfair mb-6">20 Lcar Focean Diatnt</h3>
+            <h2 className="text-3xl md:text-4xl font-medium mb-6">Brunswick</h2>
+            <h3 className="text-xl font-playfair mb-6">Mid-Century Display Cabinet</h3>
             
             <p className="text-sm text-muted-foreground mb-6">
-              Funum ipsiem soner att ettu spat, consteadorteur adipiesteing elitt. Sed die hesto-
-              vetsima ef blora duos vostema huaonis. Fasa lum eet verilis veniam secetate adalata
-              comod slitopintora mestres spaedituic epral artisus aodesrava adcian Sed 
-              talgan.
+              The Brunswick display cabinet combines form and function with its elegant design and practical storage solutions. Featuring solid oak construction with a natural finish, this piece showcases both your items and exceptional craftsmanship.
             </p>
             
             <p className="text-sm text-muted-foreground mb-8">
-              Veram ipsem fatur att sona faspt, vsan sota ad ompal fruetna. Apid heit etuma
-              cilafr gates elitcom vel fasptnl in vellats. Faisuccea a pentusa vain ed esara
-              otrtes Id seates est esat s co vied ca cpaotd sa Ha shestas ganarsptne empre vis-
-              eosmseap valutes.
+              With adjustable shelving and soft-close doors, this versatile cabinet works beautifully in living rooms, dining areas, or as a statement piece in any space. The contrasting metal hardware adds a contemporary touch to its timeless design.
             </p>
             
             <div className="flex items-center justify-between gap-4">
               <div className="flex items-center text-xs">
-                <span>Letn</span>
+                <span>Oak</span>
                 <span className="mx-2 text-muted-foreground">/</span>
-                <span>Patd Eaoimting</span>
+                <span>Hand Finished</span>
               </div>
               <div className="flex gap-4">
-                <button className="btn-primary">Cman Shmged lae</button>
-                <button className="btn-primary">Nixan cotaparlitre</button>
+                <button className="btn-primary">View Details</button>
+                <button className="btn-primary">Add to Cart</button>
               </div>
             </div>
           </div>

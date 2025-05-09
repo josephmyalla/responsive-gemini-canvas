@@ -32,19 +32,19 @@ const ProductShowcase = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <ProductCard
             image="https://images.unsplash.com/photo-1581539250439-c96689b516dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-            name="Ol Det tong"
+            name="Modern Oak Cabinet"
           />
           <ProductCard
             image="https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-            name="Cinaty hemv"
+            name="Minimalist Shelf"
           />
           <ProductCard
             image="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1158&q=80"
-            name="Sicluv Doee"
+            name="Designer Sideboard"
           />
         </div>
         <div className="text-center mt-12">
-          <button className="btn-primary">Lorem Super Dafec Sienna</button>
+          <button className="btn-primary">View All Products</button>
         </div>
       </div>
     </section>
